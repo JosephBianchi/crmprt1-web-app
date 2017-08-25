@@ -1,0 +1,72 @@
+html {
+  background-color: green;
+}
+
+.welcome {
+  text-align: center;
+  color: Gold;
+}
+
+.contact_link > a {
+  /*text-decoration: none;*/
+  color: gold;
+}
+
+.home_nav {
+  position: relative;
+  background-color: white;
+}
+
+.bitmaker_title {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.bitmaker_title a {
+  text-decoration: none;
+  color: white;
+}
+
+.home_selections {
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+  background-color: purple;
+}
+
+li {
+  margin-bottom: 2px;
+  font-size: 32px;
+}
+
+.contact_info > p {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.contact_info {
+  background-color: orange;
+}
+
+.notes {
+  font-size: 0;
+}
+
+.edit_delete_contact > a {
+    font-size: 30px;
+}

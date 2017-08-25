@@ -7,6 +7,7 @@ end
 
 get '/contacts' do
   @contacts = Contact.all
+  @contact_count = Contact.count
   erb :contacts
 end
 
