@@ -1,4 +1,4 @@
-<h2 class="conact_count">There are <b class="contact_number"><%= @contact_count %></b> contacts</h12>
+<h2 class="conact_count">There are <b class="contact_number"><%= @contact_count %></b> contacts</h2>
 
 <ul>
   <% @contacts.each do |contact| %>
@@ -6,6 +6,9 @@
       <p>Full Name: <%= contact.full_name %></p>
       <p>Email: <%= contact.email %></p>
       <p class="notes">Notes: <%= contact.note %></p>
+
+      <p class="contact_details">
+      <a href=<%="/contacts/"+contact.id.to_s%>>More</a></p>
       <nav class="edit_delete_contact">
         <a href="#">Edit</a> |
         <a href="#">Delete</a>
@@ -17,6 +20,6 @@
 <ul>
 
 
-
-
-<a href="/index">Landing Page</a>
+<a href="#"</a>
+<!--
+<a href="/index">Landing Page</a> -->
