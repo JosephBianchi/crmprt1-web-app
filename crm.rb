@@ -11,11 +11,11 @@ get '/contacts' do
   erb :contacts
 end
 
-get '/contacts/:id' do
-  #params[:id] contains the id from the URL
-  @contact = Contact.find_by({id: params[:id].to_i})
-  erb :show_contact
+get '/contacts/new' do
+  erb :new
 end
+
+
 
 get '/contacts/:id' do
   @contact = Contact.find_by(id: params[:id].to_i)
@@ -25,6 +25,8 @@ get '/contacts/:id' do
     raise Sinatra::NotFound
   end
 end
+
+
 
 
 
